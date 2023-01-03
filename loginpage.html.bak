@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NK Learning-Login</title>
+<link href="a3cst.css" rel="stylesheet">
+<link href="a3-f-cst.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/ff611f3165.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body id="loginpage">
+
+<div class="page">
+
+	<div class="navigation" >
+		<div id="home">
+		<table class="logo">
+			<tr>
+				<td id="nk"colspan="3">&nbsp NK</td>
+				<td id="sh">Learning&nbsp </td>
+			</tr>
+		</table>
+		<!--button id="nk">&nbsp NK <button>Learning &nbsp </button></button-->
+		</div>
+		<nav>
+		<div class="menu">
+			<ul>
+			<li class="active" onclick="document.getElementById('home').style.display='block'"><a href="index.html" ><i class="fa fa-home"></i>Home</a></li>
+			<li class="sub-menu"><a href="#" class="sbtn"><i class="fa fa-book "></i>Acadamics</a>
+			  <div class="sub-menu-c">
+					  <ul>
+						<li class="sub-menu1"><a href="#"class="sbtn2">1st Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+							<ul>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li><a href="loginpage.html">Introduction to Computer Science</a></li>
+										<li><a href="loginpage.html">Fundamentals of Electronics</a></li>
+										<li><a href="loginpage.html">Structured programming</a></li>
+										<li><a href="loginpage.html">Web programming</a></li>
+										<li><a href="loginpage.html">Computer Networks</a></li>
+										<li><a href="loginpage.html">Essential Mathematics</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li><a href="loginpage.html">Database Management Systems</a></li>
+										<li><a href="loginpage.html">Microcomputer Architecture and Logic Design</a></li>
+										<li><a href="loginpage.html">Object Oriented Programming</a></li>
+										<li><a href="loginpage.html">Calculus</a></li>
+										<li><a href="loginpage.html">Quantitative Reasoning</a></li>
+									</ul>
+								</div>
+							</li>
+										
+							</ul>
+							</div>
+						</li>
+						
+						<li class="sub-menu1"><a href="t#"class="sbtn2">2nd Year<i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">System Analysis and Design</a></li>
+											<li><a href="loginpage.html">Statistical Methods - I</a></li>
+											<li><a href="loginpage.html">Data Communication and Networking</a></li>
+											<li><a href="loginpage.html">Software Engineering</a></li>
+											<li><a href="loginpage.html">Discrete Mathematics</a></li>
+											<li><a href="loginpage.html">Entrepreneurship</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Data Structures and Analysis of Algorithm</a></li>
+											<li><a href="loginpage.html">Operating Systems Concepts and Compiler Designs</a></li>
+											<li><a href="loginpage.html">Rapid Application Development</a></li>
+											<li><a href="loginpage.html">Web Application Development</a></li>
+											<li><a href="loginpage.html">IT Project Management</a></li>
+											
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+							</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">3rd Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" >
+										<ul>
+											<li><a href="loginpage.html" class="sbtn4">Advanced Programming Techniques</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Human Computer Interaction</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Intelligent Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Advanced Database Management Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Computer Graphics</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Data and Network Security</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Embedded Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Mathematics for Computing</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Management Information Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Mobile Application Development</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Principles of Management</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Software Architecture & Design Patterns</a></li>
+											<li><a href="loginpage.html">Computer Systems Architecture</a></li>
+											<li><a href="loginpage.html">Software Quality Assurance</a></li>
+											<li><a href="loginpage.html">Digital Image Processing</a></li>
+											<li><a href="loginpage.html">Systems Level Programming</a></li>
+											<li><a href="loginpage.html">Research Methodology and Scientific Writing</a></li>
+											<li><a href="loginpage.html">Emerging Technologies in CSI</a></li>
+											<li><a href="loginpage.html">Mobile Computing</a></li>
+											<li><a href="loginpage.html">Statistical Method - II</a></li>
+											<li><a href="loginpage.html">Parallel and Distributed Computing</a></li>
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+								</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">4th Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Intellectual Property Rights, Legislations and Commercialization</a></li>
+											<li><a href="loginpage.html">Social, Ethical and Professional Issues in Computing</a></li>
+											<li><a href="loginpage.html">Semantic Web Technologies</a></li>
+											<li><a href="loginpage.html">Cloud Computing</a></li>
+											<li><a href="loginpage.html">Deep Learning</a></li>
+											<li><a href="loginpage.html">Remote Sensing and Image Interpretation</a></li>
+											<li><a href="loginpage.html">Bioinformatics</a></li>
+											<li><a href="loginpage.html">Enterprise Resource Planning(ERP)</a></li>
+											<li><a href="loginpage.html">Robotics</a></li>
+											<li><a href="loginpage.html">Data Warehousing and Data Mining</a></li>
+											<li><a href="loginpage.html">Digital Forensics</a></li>
+											<li><a href="loginpage.html">System Administration and Maintenance</a></li>
+											<li><a href="loginpage.html">Advanced Computer Networks</a></li>
+											<li><a href="loginpage.html">GIS for Business</a></li>
+											<li><a href="loginpage.html">Internet of Things</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semister 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Industrial Training</a></li>
+											<li><a href="loginpage.html">Research Project</a></li>
+										</ul>
+								</div>
+								</li>	
+								</ul>
+							</div>
+						</li>
+						
+						</ul>
+				</div>
+			
+			</li>
+			<li class="sub-menu"><a href="#"class="sbtn"><i class="fa fa-clone"></i>About us</a></li>
+			<li class="sub-menu"><a href="#"class="sbtn"><i class="fa fa-phone"></i>contact</a></li>
+			<li class="sub-menu"><a href="loginpage.html"class="sbtn" ><i class="fa fa-user"></i>Login</a></li>
+			</ul>
+		</div>
+		</nav>
+	</div>
+
+
+	<!--div>
+		<img src="https://shcomsc.files.wordpress.com/2019/02/computer-science-why-study-computer-science.png">
+	</div-->
+	<div id="login-form">
+		<!-- <div class="hero-image"> -->
+		<div class="form_box">
+		
+			<div class="button-box">
+				<div id="btn"></div>
+				<button type="button" onclick="login()"class="toggle-btn">Login</button>
+				<button type="button" onclick="register()"class="toggle-btn">Register</button>
+			</div>
+			<form id="login"class="input-group-login" action="mainpage.html">
+				<input type="email" name="email" class="input-field"placeholder="Email address" required>
+				<input type="password" class="input-field"name="password" placeholder="Password" required>
+				<input type="checkbox" class="check-box"name="checkbox" ><span>Remember password</span>
+				<!--a href="#" id="forgotpassword">Forgotten password<--->
+				<button type="submit" class="submit-btn"  >Login</button>
+			</form>
+			<form id ="register"class="input-group-register" action="mainpage.html" >
+				<input type="text"class="input-field" name="firstname" placeholder="First Name" required>
+				<input type="text"class="input-field" name="lastname" placeholder="Last Name" required>
+				<input type="email" class="input-field"name="r_email" placeholder="Email Address" required>
+				<input type="password" class="input-field"name ="newpwd" placeholder="New Password" required>
+				<input type="password" class="input-field"   name="confirmpwd" placeholder="Confirm Password"required>
+				<input type ="checkbox" class="check-box" ><span>I agree the all terms and coditions</span>
+				<button type="submit" class="submit-btn" >Register</button>
+				
+			</form>
+			</div>
+		<!-- </div> -->
+	</div>
+</div>
+<footer>
+	<div class="f-menu">
+		<div class="f-row-l">
+			<table class="f-logo">
+				<tr>
+					<td id="nk"colspan="3">&nbsp NK</td>
+					<td id="sh">Learning&nbsp </td>
+				</tr>
+			</table>
+			<p>Login Easy tutorial our wenpage</p>
+		</div>
+		<div class="f-row">
+			<h3>Office <div class="underline"><span></span></div></h3>
+			<p>Javalkulam</p>
+			<p>Anaicoddai</p>
+			<p>Jaffna ,Srilanka</p>
+			<p class="email-id"> nkrisnaraj007@gmail.com</p>
+			<h4>+94 - 768252429</h4>
+		</div>
+		<div class="f-row">
+			<h3>Quick Links <div class="underline"><span></span></div></h3>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Acadamics</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div class="f-row">
+			<h3> Newsletter <div class="underline"><span></span></div></h3>
+			<form class="form">
+				<i class="far fa-envelope"></i>
+				<input type="email" placeholder="Enter your Email id" required>
+				<button type="submit"><i class="fas fa-arrow-right"></i></button>
+			</form>
+		
+			<div class="social-icons">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-whatsapp"></i>
+				<i class="fab fa-instagram"></i>
+			
+				
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+	<p class="copyright">NK Learning  2022 - All Right Reserved</p>
+</footer>
+	<script>
+	var x=document.getElementById("login"); 
+	var y=document.getElementById("register"); 
+	var z=document.getElementById("btn"); 
+	
+	function register(){
+		x.style.left="-400px";
+		y.style.left="50px";
+		z.style.left="110px";
+	}
+	function login(){
+		x.style.left="50px";
+		y.style.left="450px";
+		z.style.left="0px";
+	}
+	</script>
+	<script>
+		function goTo(){
+			document.location.href="main.html";
+		}
+	</script>
+</body>
+</html>

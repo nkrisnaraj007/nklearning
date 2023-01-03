@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NK Learning-Home page</title>
+<link href="a3cst.css" rel="stylesheet">
+<link href="a3-f-cst.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/ff611f3165.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body id="main">
+
+<div class="page" >
+
+	<div class="navigation" >
+		<div id="home">
+		<table class="logo">
+			<tr>
+				<td id="nk"colspan="3">&nbsp NK</td>
+				<td id="sh">Learning&nbsp </td>
+			</tr>
+		</table>
+		<!--button id="nk">&nbsp NK <button>Learning &nbsp </button></button-->
+		</div>
+		<nav>
+		<div class="menu" id="Menu">
+			<ul>
+			<li class="active" onclick="document.getElementById('home').style.display='block'"><a href="#" ><i class="fa fa-home"></i>Home</a></li>
+			<li class="sub-menu"><a href="#" class="sbtn"><i class="fa fa-book "></i>Acadamics</a>
+			  <div class="sub-menu-c">
+					  <ul>
+						<li class="sub-menu1"><a href="#"class="sbtn2">1st Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+							<ul>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li><a href="loginpage.html">Introduction to Computer Science</a></li>
+										<li><a href="loginpage.html">Fundamentals of Electronics</a></li>
+										<li><a href="loginpage.html">Structured programming</a></li>
+										<li><a href="loginpage.html">Web programming</a></li>
+										<li><a href="loginpage.html">Computer Networks</a></li>
+										<li><a href="loginpage.html">Essential Mathematics</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li><a href="loginpage.html">Database Management Systems</a></li>
+										<li><a href="loginpage.html">Microcomputer Architecture and Logic Design</a></li>
+										<li><a href="loginpage.html">Object Oriented Programming</a></li>
+										<li><a href="loginpage.html">Calculus</a></li>
+										<li><a href="loginpage.html">Quantitative Reasoning</a></li>
+									</ul>
+								</div>
+							</li>
+										
+							</ul>
+							</div>
+						</li>
+						
+						<li class="sub-menu1"><a href="t#"class="sbtn2">2nd Year<i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">System Analysis and Design</a></li>
+											<li><a href="loginpage.html">Statistical Methods - I</a></li>
+											<li><a href="loginpage.html">Data Communication and Networking</a></li>
+											<li><a href="loginpage.html">Software Engineering</a></li>
+											<li><a href="loginpage.html">Discrete Mathematics</a></li>
+											<li><a href="loginpage.html">Entrepreneurship</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Data Structures and Analysis of Algorithm</a></li>
+											<li><a href="loginpage.html">Operating Systems Concepts and Compiler Designs</a></li>
+											<li><a href="loginpage.html">Rapid Application Development</a></li>
+											<li><a href="loginpage.html">Web Application Development</a></li>
+											<li><a href="loginpage.html">IT Project Management</a></li>
+											
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+							</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">3rd Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" >
+										<ul>
+											<li><a href="loginpage.html" class="sbtn4">Advanced Programming Techniques</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Human Computer Interaction</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Intelligent Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Advanced Database Management Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Computer Graphics</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Data and Network Security</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Embedded Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Mathematics for Computing</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Management Information Systems</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Mobile Application Development</a></li>
+											<li><a href="loginpage.html" class="sbtn4">Principles of Management</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Software Architecture & Design Patterns</a></li>
+											<li><a href="loginpage.html">Computer Systems Architecture</a></li>
+											<li><a href="loginpage.html">Software Quality Assurance</a></li>
+											<li><a href="loginpage.html">Digital Image Processing</a></li>
+											<li><a href="loginpage.html">Systems Level Programming</a></li>
+											<li><a href="loginpage.html">Research Methodology and Scientific Writing</a></li>
+											<li><a href="loginpage.html">Emerging Technologies in CSI</a></li>
+											<li><a href="loginpage.html">Mobile Computing</a></li>
+											<li><a href="loginpage.html">Statistical Method - II</a></li>
+											<li><a href="loginpage.html">Parallel and Distributed Computing</a></li>
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+								</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">4th Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Intellectual Property Rights, Legislations and Commercialization</a></li>
+											<li><a href="loginpage.html">Social, Ethical and Professional Issues in Computing</a></li>
+											<li><a href="loginpage.html">Semantic Web Technologies</a></li>
+											<li><a href="loginpage.html">Cloud Computing</a></li>
+											<li><a href="loginpage.html">Deep Learning</a></li>
+											<li><a href="loginpage.html">Remote Sensing and Image Interpretation</a></li>
+											<li><a href="loginpage.html">Bioinformatics</a></li>
+											<li><a href="loginpage.html">Enterprise Resource Planning(ERP)</a></li>
+											<li><a href="loginpage.html">Robotics</a></li>
+											<li><a href="loginpage.html">Data Warehousing and Data Mining</a></li>
+											<li><a href="loginpage.html">Digital Forensics</a></li>
+											<li><a href="loginpage.html">System Administration and Maintenance</a></li>
+											<li><a href="loginpage.html">Advanced Computer Networks</a></li>
+											<li><a href="loginpage.html">GIS for Business</a></li>
+											<li><a href="loginpage.html">Internet of Things</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semister 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li><a href="loginpage.html">Industrial Training</a></li>
+											<li><a href="loginpage.html">Research Project</a></li>
+										</ul>
+								</div>
+								</li>	
+								</ul>
+							</div>
+						</li>
+						
+						</ul>
+				</div>
+			
+			</li>
+			<li class="sub-menu"><a href="#about"class="sbtn"><i class="fa fa-clone"></i>About us</a></li>
+			<li class="sub-menu"><a href="#contact"class="sbtn"><i class="fa fa-phone"></i>contact</a></li>
+			<li class="sub-menu"><a href="loginpage.html"class="sbtn" ><i class="fa fa-user"></i>Login</a></li>
+			</ul>
+		</div>
+		</nav>
+	
+	</div>
+
+	<div class="col-12" style="padding-top:30px;">
+	<div class="col-2">
+	</div>
+	<div class="col-8">
+	<h1 id="h1top">COMPUTER SCIECNE<br>AND<br>TECHNOLOGY</h1>
+	<div class="para">
+			<div class="slider">
+			<img src="myhc_89683.jpg" id ="img1">
+			</div>
+				<div>
+				<p><!-- <img src="myhc_89683.jpg" id ="img1"> -->Computer science is the study of computation, automation, and information.[1] Computer science spans theoretical disciplines 
+				(such as algorithms, theory of computation, information theory, and automation) to practical disciplines (including the design and
+				 implementation of hardware and software).[2][3][4] Computer science is generally considered an area of academic research and distinct 
+				 from computer programming</p>
+				 <p><!-- <img src="myhc_89683.jpg" id ="img1"> -->Computer science is the study of computation, automation, and information.[1] Computer science spans theoretical disciplines 
+				(such as algorithms, theory of computation, information theory, and automation) to practical disciplines (including the design and
+				 implementation of hardware and software).[2][3][4] Computer science is generally considered an area of academic research and distinct 
+				 from computer programming</p>
+				 <p><!-- <img src="myhc_89683.jpg" id ="img1"> -->Computer science is the study of computation, automation, and information.[1] Computer science spans theoretical disciplines 
+				(such as algorithms, theory of computation, information theory, and automation) to practical disciplines (including the design and
+				 implementation of hardware and software).[2][3][4] Computer science is generally considered an area of academic research and distinct 
+				 from computer programming</p>
+				 <p><!-- <img src="myhc_89683.jpg" id ="img1"> -->Computer science is the study of computation, automation, and information.[1] Computer science spans theoretical disciplines 
+				(such as algorithms, theory of computation, information theory, and automation) to practical disciplines (including the design and
+				 implementation of hardware and software).[2][3][4] Computer science is generally considered an area of academic research and distinct 
+				 from computer programming</p>
+				 </div>
+				</div>
+		</div>
+		<div class="col-2">
+		</div>
+	</div>
+	<div>
+	<hr class="hr">
+	</div>
+	<!-- <div class="col-12"></div> -->
+</div>
+
+	<!-- <div class="fmenu" > -->
+	<!--  -->
+<!-- <div class="footer col-12">	 -->
+	<section class="contact" id="contact">
+		<div class="content">
+			<h2>Contact Us</h2>
+			<p>Far too many website designers put contact pages near the bottom of
+			their priority list in terms of copywriting and design. It’s no wonder that 
+			many contact pages look like they were built in the 1990s, while the rest 
+			of the website is beautiful and updated.</p>
+		</div>
+		<div class="container">
+			<div class="contactForm">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputBox">
+						<input type="text" name="" required>
+						<span>Full Name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="" required>
+						<span>Email</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>Type your message.....</span>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="" value="Send">
+					</div>
+					
+				</form>
+			</div>
+			<div class="contactInfo">
+				<div class="box">
+					<div class="icon"><i class="fa fa-map-marker"></i></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p> Javalkulam
+						<br>Anaicoddai
+						<br>Jaffna ,Srilanka</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"><i class="fa fa-phone"></i></div>
+					<div class="text">
+						<h3>Phone</h3>
+						<p>+94 -768252429</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="icon"><i class="fa fa-envelope-o"></i></div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>nkrisnaraj007@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<section class="about" id="about" >	
+	<div class="content" >
+		<h1>About Us</h1>
+		<hr class="aboutHr">
+		<p> <b>NK Learning </b> platform is very useful to the<br>
+			undergradute students to develop theirs skills and knowledge.<br> <br>
+			
+			We give the subject contents with full explanation.<br> <br>
+			<i>" Try to Learning exhausts the mind"</i>
+		</p>
+	</div>
+	<div class="container">
+		<div class="aboutImg">
+			<img src="https://www.uopeople.edu/wp-content/uploads/2019/01/The-Basics-of-Computer-Science.webp">
+			
+		</div>
+		<div class="aboutInfo">
+			<div class="box">
+				<div class="text">
+					<h3> NK Learning contains </h3>
+					<ul> 
+						<li>- Tutorial videos </li>
+						<li>- Theory</li>
+						<li>- Exercises</li>
+						<li>- Quizs</li>
+					</ul>
+					
+				</div>		
+			</div>
+			
+		</div>
+		
+		
+	</div>
+	<div class="social-icons" >
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-whatsapp"></i>
+				<i class="fab fa-instagram"></i>
+	</div>
+	
+		<hr class="aboutHr1">
+		
+ </section>
+<footer>
+	<div class="f-menu">
+		<div class="f-row-l">
+			<table class="f-logo">
+				<tr>
+					<td id="nk"colspan="3">&nbsp NK</td>
+					<td id="sh">Learning&nbsp </td>
+				</tr>
+			</table>
+			<p>Login Easy tutorial our wenpage</p>
+		</div>
+		<div class="f-row">
+			<h3>Office<div class="underline"><span></span></div></h3>
+			<p>Javalkulam</p>
+			<p>Anaicoddai</p>
+			<p>Jaffna ,Srilanka</p>
+			<p class="email-id"> nkrisnaraj007@gmail.com</p>
+			<h4>+94 - 768252429</h4>
+		</div>
+		<div class="f-row">
+			<h3>Quick Links<div class="underline"><span></span></div></h3>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Acadamics</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div class="f-row">
+			<h3> Newsletter <div class="underline"><span></span></div></h3>
+			<form class="form">
+				<i class="far fa-envelope"></i>
+				<input type="email" placeholder="Enter your Email id" required>
+				<button type="submit"><i class="fas fa-arrow-right"></i></button>
+			</form>
+		
+			<div class="social-icons">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-whatsapp"></i>
+				<i class="fab fa-instagram"></i>
+			
+				
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+	<p class="copyright">NK Learning &copy 2022 - All Right Reserved</p>
+</footer>
+</body>
+</html>
+

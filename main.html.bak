@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main</title>
+<link href="a3cst.css" rel="stylesheet">
+<link href="a3-f-cst.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/ff611f3165.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body id="main">
+<div class="page" >
+
+	<div class="navigation" >
+		<div id="home">
+		<table class="logo">
+			<tr>
+				<td id="nk"colspan="3">&nbsp NK</td>
+				<td id="sh">Learning&nbsp </td>
+			</tr>
+		</table>
+		<!--button id="nk">&nbsp NK <button>Learning &nbsp </button></button-->
+		</div>
+		<nav>
+		<div class="menu" id="Menu">
+			<ul>
+			<li class="active" onclick="document.getElementById('home').style.display='block'"><a href="#" ><i class="fa fa-home"></i>Home</a></li>
+			<li class="sub-menu"><a href="#" class="sbtn"><i class="fa fa-book "></i>Acadamics</a>
+			  <div class="sub-menu-c">
+					  <ul>
+						<li class="sub-menu1"><a href="#"class="sbtn2">1st Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+							<ul>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li>Introduction to Computer Science</a></li>
+										<li>Fundamentals of Electronics</a></li>
+										<li>Structured programming</a></li>
+										<li>Web programming</a></li>
+										<li>Computer Networks</a></li>
+										<li>ssential Mathematics</a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu2c" id="sm2c">
+									<ul>
+										<li>Database Management Systems</a></li>
+										<li>Microcomputer Architecture and Logic Design</a></li>
+										<li>Object Oriented Programming</a></li>
+										<li>Calculus</a></li>
+										<li>Quantitative Reasoning</a></li>
+									</ul>
+							</div>
+							</li>
+										
+							</ul>
+							</div>
+						</li>
+						
+						<li class="sub-menu1"><a href="t#"class="sbtn2">2nd Year<i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li>System Analysis and Design</a></li>
+											<li>Statistical Methods - I</a></li>
+											<li>Data Communication and Networking</a></li>
+											<li>Software Engineering</a></li>
+											<li>Discrete Mathematics</a></li>
+											<li>Entrepreneurship</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li>Data Structures and Analysis of Algorithm</a></li>
+											<li>Operating Systems Concepts and Compiler Designs</a></li>
+											<li>Rapid Application Development</a></li>
+											<li>Web Application Development</a></li>
+											<li>IT Project Management</a></li>
+											
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+							</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">3rd Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" >
+										<ul>
+											<li>Advanced Programming Techniques</a></li>
+											<li>Human Computer Interaction</a></li>
+											<li>Intelligent Systems</a></li>
+											<li>Advanced Database Management Systems</a></li>
+											<li>Computer Graphics</a></li>
+											<li>Data and Network Security</a></li>
+											<li>Embedded Systems</a></li>
+											<li>Mathematics for Computing</a></li>
+											<li>Management Information Systems</a></li>
+											<li>Mobile Application Development</a></li>
+											<li>Principles of Management</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li>Software Architecture & Design Patterns</a></li>
+											<li>Computer Systems Architecture</a></li>
+											<li>Software Quality Assurance</a></li>
+											<li>Digital Image Processing</a></li>
+											<li>Systems Level Programming</a></li>
+											<li>Research Methodology and Scientific Writing</a></li>
+											<li>Emerging Technologies in CSI</a></li>
+											<li>Mobile Computing</a></li>
+											<li>Statistical Method - II</a></li>
+											<li>Parallel and Distributed Computing</a></li>
+										</ul>
+									</div>
+								</li>
+											
+								</ul>
+								</div>
+						</li>
+						<li class="sub-menu1"><a href="#"class="sbtn2">4th Year <i class="fa fa-angle-right"></i></a>
+							<div class="sub-menu1c">
+								<ul>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semester 1 <i class="fa fa-angle-right"></i></a>
+									<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li>Intellectual Property Rights, Legislations and Commercialization</a></li>
+											<li>Social, Ethical and Professional Issues in Computing</a></li>
+											<li>Semantic Web Technologies</a></li>
+											<li>Cloud Computing</a></li>
+											<li>Deep Learning</a></li>
+											<li>Remote Sensing and Image Interpretation</a></li>
+											<li>Bioinformatics</a></li>
+											<li>Enterprise Resource Planning(ERP)</a></li>
+											<li>Robotics</a></li>
+											<li>Data Warehousing and Data Mining</a></li>
+											<li>Digital Forensics</a></li>
+											<li>System Administration and Maintenance</a></li>
+											<li>Advanced Computer Networks</a></li>
+											<li>GIS for Business</a></li>
+											<li>Internet of Things</a></li>
+										</ul>
+									</div>
+								</li>
+								<li class="sub-menu2"><a href="#" class="sbtn3">Semister 2 <i class="fa fa-angle-right"></i></a>
+								<div class="sub-menu2c" id="sm2c">
+										<ul>
+											<li>Industrial Training</a></li>
+											<li>Research Project</a></li>
+										</ul>
+								</div>
+								</li>	
+								</ul>
+							</div>
+						</li>
+						
+						</ul>
+				</div>
+			
+			</li>
+			<li class="sub-menu"><a href="about.html"class="sbtn"><i class="fa fa-clone"></i>About us</a></li>
+			<li class="sub-menu"><a href="contact.html"class="sbtn"><i class="fa fa-phone"></i>contact</a></li>
+			<li class="sub-menu"><a href=""class="sbtn" ><i class="fa fa-user"></i>Profile</a></li>
+			</ul>
+		</div>
+		</nav>
+	
+	</div>
+</div>
+<section class="about" >	
+	<div class="content" >
+		<h1>First Year</h1>
+		<hr class="aboutHr">
+	</div>
+	<div class="container">
+		<div class="aboutImg">
+			<img src="https://www.uopeople.edu/wp-content/uploads/2019/01/The-Basics-of-Computer-Science.webp">
+			
+		</div>
+		<div class="aboutInfo">
+			<div class="box">
+				<div class="text">
+					<h3> Semester 1 </h3>
+					<ul>
+						<li>Introduction to Computer Science</a></li>
+						<li>Fundamentals of Electronics</a></li>
+						<li>Structured programming</a></li>
+						<li>Web programming</a></li>
+						<li>Computer Networks</a></li>
+						<li>ssential Mathematics</a></li>
+					</ul>
+					
+				</div>		
+			</div>
+			<div class="box">
+				<div class="text">
+					<h3> Semester 2 </h3>
+					<ul>
+						<li>Database Management Systems</a></li>
+						<li>Microcomputer Architecture and Logic Design</a></li>
+						<li>Object Oriented Programming</a></li>
+						<li>Calculus</a></li>
+						<li>Quantitative Reasoning</a></li>
+					</ul>
+					
+				</div>		
+			</div>
+			
+		</div>
+	</div>
+	<hr>
+	<hr>
+	<div class="content" >
+		<h1>Second Year</h1>
+		<hr class="aboutHr">
+	</div>
+	<div class="container">
+		<div class="aboutImg">
+			<img src="https://www.uopeople.edu/wp-content/uploads/2019/01/The-Basics-of-Computer-Science.webp">
+			
+		</div>
+		<div class="aboutInfo">
+			<div class="box">
+				<div class="text">
+					<h3> Semester 1 </h3>
+					<ul>
+						<li>System Analysis and Design</a></li>
+						<li>Statistical Methods - I</a></li>
+						<li>Data Communication and Networking</a></li>
+						<li>Software Engineering</a></li>
+						<li>Discrete Mathematics</a></li>
+						<li>Entrepreneurship</a></li>
+					</ul>
+					
+				</div>		
+			</div>
+			<div class="box">
+				<div class="text">
+					<h3> Semester 2 </h3>
+					<ul>
+						<li>Data Structures and Analysis of Algorithm</a></li>
+						<li>Operating Systems Concepts and Compiler Designs</a></li>
+						<li>Rapid Application Development</a></li>
+						<li>Web Application Development</a></li>
+						<li>IT Project Management</a></li>	
+					</ul>
+					
+				</div>		
+			</div>
+			
+		</div>
+	</div>
+	<hr>
+	<hr>
+	<div class="content" > <!-- 3rd -->
+		<h1>Third Year</h1>
+		<hr class="aboutHr">
+	</div>
+	<div class="container">
+		<div class="aboutImg">
+			<img src="https://www.uopeople.edu/wp-content/uploads/2019/01/The-Basics-of-Computer-Science.webp">
+			
+		</div>
+		<div class="aboutInfo">
+			<div class="box">
+				<div class="text">
+					<h3> Semester 1 </h3>
+					<ul>
+						<li>Advanced Programming Techniques</li>
+						<li>Human Computer Interaction</li>
+						<li>Intelligent Systems</li>
+						<li>Advanced Database Management Systems</li>
+						<li>Computer Graphics</li>
+						<li>Data and Network Security</li>
+						<li>Embedded Systems</li>
+						<li>Mathematics for Computing</li>
+						<li>Management Information Systems</li>
+						<li>Mobile Application Development</li>
+						<li>Principles of Management</li>
+					</ul>
+					
+				</div>		
+			</div>
+			<div class="box">
+				<div class="text">
+					<h3> Semester 2 </h3>
+					<ul>
+						<li>Software Architecture & Design Patterns</li>
+						<li>Computer Systems Architecture</li>
+						<li>Software Quality Assurance</li>
+						<li>Digital Image Processing</li>
+						<li>Systems Level Programming</li>
+						<li>Research Methodology and Scientific Writing</li>
+						<li>Emerging Technologies in CSI</li>
+						<li>Mobile Computing</li>
+						<li>Statistical Method - II</li>
+						<li>Parallel and Distributed Computing</li>
+					</ul>
+					
+				</div>		
+			</div>
+			
+		</div>
+	</div>
+	<hr>
+	<hr>
+	<div class="content" >
+		<h1>Final Year</h1>
+		<hr class="aboutHr">
+	</div>
+	<div class="container">
+		<div class="aboutImg">
+			<img src="https://www.uopeople.edu/wp-content/uploads/2019/01/The-Basics-of-Computer-Science.webp">
+			
+		</div>
+		<div class="aboutInfo">
+			<div class="box">
+				<div class="text">
+					<h3> Semester 1 </h3>
+					<ul>
+						<li>Intellectual Property Rights, Legislations and Commercialization</a></li>
+						<li>Social, Ethical and Professional Issues in Computing</a></li>
+						<li>Semantic Web Technologies</a></li>
+						<li>Cloud Computing</a></li>
+						<li>Deep Learning</a></li>
+						<li>Remote Sensing and Image Interpretation</a></li>
+						<li>Bioinformatics</a></li>
+						<li>Enterprise Resource Planning(ERP)</a></li>
+						<li>Robotics</a></li>
+						<li>Data Warehousing and Data Mining</a></li>
+						<li>Digital Forensics</a></li>
+						<li>System Administration and Maintenance</a></li>
+						<li>Advanced Computer Networks</a></li>
+						<li>GIS for Business</a></li>
+						<li>Internet of Things</a></li>
+					</ul>
+					
+				</div>		
+			</div>
+			<div class="box">
+				<div class="text">
+					<h3> Semester 2 </h3>
+					<ul>
+						<li>Industrial Training</a></li>
+						<li>Research Project</a></li>
+					</ul>
+					
+				</div>		
+			</div>
+			
+		</div>
+	</div>
+		
+</section>
+<footer>
+	<div class="f-menu">
+		<div class="f-row-l">
+			<table class="f-logo">
+				<tr>
+					<td id="nk"colspan="3">&nbsp NK</td>
+					<td id="sh">Learning&nbsp </td>
+				</tr>
+			</table>
+			<p>Login Easy tutorial our wenpage</p>
+		</div>
+		<div class="f-row">
+			<h3>Office<div class="underline"><span></span></div></h3>
+			<p>Javalkulam</p>
+			<p>Anaicoddai</p>
+			<p>Jaffna ,Srilanka</p>
+			<p class="email-id"> nkrisnaraj007@gmail.com</p>
+			<h4>+94 - 768252429</h4>
+		</div>
+		<div class="f-row">
+			<h3>Quick Links<div class="underline"><span></span></div></h3>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Acadamics</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div class="f-row">
+			<h3> Newsletter <div class="underline"><span></span></div></h3>
+			<form class="form">
+				<i class="far fa-envelope"></i>
+				<input type="email" placeholder="Enter your Email id" required>
+				<button type="submit"><i class="fas fa-arrow-right"></i></button>
+			</form>
+		
+			<div class="social-icons">
+				<i class="fab fa-facebook-square"></i>
+				<i class="fab fa-twitter-square"></i>
+				<i class="fab fa-whatsapp"></i>
+				<i class="fab fa-instagram"></i>
+			
+				
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+	<p class="copyright">NK Learning  2022 - All Right Reserved</p>
+</footer>
+</body>
+</html>
